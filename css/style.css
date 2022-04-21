@@ -1,0 +1,38 @@
+body{
+    max-width: 600px;
+    margin: auto;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: beige;
+    box-shadow: 5px 5px 10px slategrey;
+    border-radius: 15px;
+}
+.name{
+    margin: auto;
+    font-size: 35px;
+}
+#title{
+    text-shadow: 2px 1px slategray;
+}
+.photo{
+    max-width: 150px;
+    height: auto;
+    margin: 25px;
+    box-shadow: 5px 5px 10px slategrey;
+    border-radius: 15px;
+}
+footer{
+    background-color: beige;
+    box-shadow: 5px 5px 10px slategrey;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+ul{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    padding: 15px;
+}
