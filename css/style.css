@@ -36,3 +36,6 @@ ul{
     border-bottom-style: solid;
     padding: 15px;
 }
+#lastmod{
+    color: orange;
+}
