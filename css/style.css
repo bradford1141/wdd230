@@ -9,6 +9,7 @@ header{
     background-color: beige;
     box-shadow: 5px 5px 10px slategrey;
     border-radius: 15px;
+    color: black;
 }
 .name{
     margin: auto;
@@ -37,5 +38,5 @@ ul{
     padding: 15px;
 }
 #lastmod{
-    color: orange;
+    color: #a00000;
 }
