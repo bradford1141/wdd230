@@ -1,0 +1,49 @@
+header{
+    background-color: tan;
+    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+}
+main{
+    display: flex;
+    max-width: 975px;
+    margin: auto;
+    border-radius: 15px;
+}
+img{
+    max-width: 300px;
+    max-height: 572px;
+}
+.title1{
+    background-color: rgb(205, 154, 88);
+    border-radius: 10px;
+    padding: 7px;
+}
+#card1{
+    background-color: lightgrey;
+    border-radius: 15px;
+}
+.title2{
+    background-color: rgb(205, 154, 88);
+    border-radius: 10px;
+    padding: 7px;
+}
+#card2{
+    background-color: lightgrey;
+    border-radius: 15px;
+}
+.title3{
+    background-color: rgb(205, 154, 88);
+    border-radius: 10px;
+    padding: 7px;
+}
+#card3{
+    background-color: lightgrey;
+    border-radius: 15px;
+}
+footer{
+    background-color: tan;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
