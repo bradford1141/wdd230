@@ -3,12 +3,16 @@ header{
     margin: auto;
     max-width: 1000px;
     text-align: center;
+    font-family: 'Roboto Mono', monospace;
 }
 main{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(325px,1fr));
     max-width: 975px;
     margin: auto;
     border-radius: 15px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 img{
     max-width: 300px;
@@ -48,4 +52,7 @@ footer{
     max-width: 1000px;
     margin: auto;
     text-align: center;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    font-family: 'Roboto Mono', monospace;
 }
