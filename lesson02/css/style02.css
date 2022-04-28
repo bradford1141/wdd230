@@ -11,8 +11,8 @@ main{
     max-width: 975px;
     margin: auto;
     border-radius: 15px;
-    margin-bottom: 10px;
     font-family: 'Open Sans', sans-serif;
+    /* gap: 1rem; */
 }
 img{
     max-width: 300px;

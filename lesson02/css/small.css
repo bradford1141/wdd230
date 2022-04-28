@@ -1,0 +1,15 @@
+/* main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 325px;
+}
+#card1{
+    grid-row: 1/2;
+}
+#card2{
+    grid-row: 2/3;
+}
+#card3{
+    grid-row: 3/4;
+} */
