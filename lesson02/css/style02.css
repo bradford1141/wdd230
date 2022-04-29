@@ -27,6 +27,7 @@ img{
     background-color: lightgrey;
     border-radius: 15px;
     margin-right: 10px;
+    margin-bottom: 15px;
 }
 .title2{
     background-color: rgb(205, 154, 88);
@@ -37,6 +38,7 @@ img{
     background-color: lightgrey;
     border-radius: 15px;
     margin-right: 10px;
+    margin-bottom: 15px;
 }
 .title3{
     background-color: rgb(205, 154, 88);
@@ -46,6 +48,7 @@ img{
 #card3{
     background-color: lightgrey;
     border-radius: 15px;
+    margin-bottom: 15px;
 }
 footer{
     background-color: tan;
