@@ -16,7 +16,7 @@ main{
 }
 img{
     max-width: 300px;
-    max-height: 572px;
+    max-height: auto;
 }
 .title1{
     background-color: rgb(205, 154, 88);
