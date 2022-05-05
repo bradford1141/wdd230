@@ -3,21 +3,70 @@ header{
     color: #e0e4e3;
     font-family: 'Tapestry', cursive;
 }
+.title{
+    display: flex;
+}
+.hometitle{
+    padding-left: 25px;
+}
 nav{
     background-color: #a5a6a8;
     font-family: 'Oswald', sans-serif;
     color: black;
 }
-nav :hover{
-    color: #5b2333;
+.nav-flex ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+}
+.nav-flex a{
+    display: block;
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+}
+.nav-flex li{
+    flex: 1 1 auto;
+}
+nav a:hover{
+    color: #e0e4e3;
+    background-color: #5b2333;
 }
 main{
     font-family: 'Oswald', sans-serif;
     background-color: #e0e4e3;
+}
+.flex-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
 }
 footer{
     background-color: #5b2333;
     color: #e0e4e3;
     font-family: 'Tapestry', cursive;
     text-align: center;
+}
+header main footer{
+    padding: 1rem;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.flex-main section img{
+    box-shadow: 0 0 30px gray;
+}
+@media screen and (min-width: 48em) 
+    {
+        .nav-flex ul{
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .flex-main{
+            flex-direction: row;
+            justify-content: space-around;
+        }
 }

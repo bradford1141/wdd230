@@ -20,9 +20,29 @@ img{
 .nav-flex li{
     flex: 1 1 auto;
 }
+.flex-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+}
+.flex-main section{
+    max-width: 300px;
+}
+header main footer{
+    padding: 1rem;
+}
+.flex-main section img{
+    box-shadow: 0 0 30px gray;
+}
 @media screen and (min-width: 48em) 
     {
         .nav-flex ul{
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .flex-main{
             flex-direction: row;
             justify-content: space-around;
         }
