@@ -1,0 +1,29 @@
+.nav-flex ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+}
+.nav-flex a{
+    display: block;
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+}
+.nav-flex a:hover{
+    background-color: red;
+    color: black;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.nav-flex li{
+    flex: 1 1 auto;
+}
+@media screen and (min-width: 48em) 
+    {
+        .nav-flex ul{
+            flex-direction: row;
+            justify-content: space-around;
+        }
+}

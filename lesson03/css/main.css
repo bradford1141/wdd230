@@ -1,0 +1,23 @@
+header{
+    background-color: #5b2333;
+    color: #e0e4e3;
+    font-family: 'Tapestry', cursive;
+}
+nav{
+    background-color: #a5a6a8;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+nav :hover{
+    color: #5b2333;
+}
+main{
+    font-family: 'Oswald', sans-serif;
+    background-color: #e0e4e3;
+}
+footer{
+    background-color: #5b2333;
+    color: #e0e4e3;
+    font-family: 'Tapestry', cursive;
+    text-align: center;
+}
