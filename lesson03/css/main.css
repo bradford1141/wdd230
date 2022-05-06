@@ -14,6 +14,9 @@ nav{
     font-family: 'Oswald', sans-serif;
     color: black;
 }
+.nav-flex a{
+    color: black;
+}
 .nav-flex ul{
     display: flex;
     flex-direction: column;
@@ -31,6 +34,7 @@ nav{
 nav a:hover{
     color: #e0e4e3;
     background-color: #5b2333;
+    text-decoration: underline;
 }
 main{
     font-family: 'Oswald', sans-serif;
