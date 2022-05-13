@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1024px) {
+    main{
+        font-family: 'Oswald', sans-serif;
+        background-color: #e0e4e3;
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr ;
+        min-height: 200px;
+    }
+    .event{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .hero{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .spotlight{
+        grid-column: 3/4;
+        grid-row: 1/4;
+    }
+    #spotlight3{
+        display: block;
+    }
+    .weather{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .join{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        display: block;
+    }
+    .new_release{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+}
