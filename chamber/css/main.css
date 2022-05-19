@@ -41,8 +41,9 @@ nav{
 	content: "☰ ";
 }
 .navigation a:hover {
-	color: white;
-	background-color: black;
+	color: black;
+	background-color: #a5a6a8;
+    text-decoration: underline;
 }
 .responsive li {
 	display: block;
