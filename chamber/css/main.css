@@ -67,18 +67,61 @@ main{
 }
 .hero{
     grid-row: 1/2;
+    text-align: center;
+    position: relative;
+}
+.hero h3{
+    position: absolute;
+    top: 6px;
+    left: 16px;
+    font-size: 3em;
+    color: white;
+}
+.herobutton{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 .event{
     grid-row: 2/3;
 }
+.event h3{
+    color: #5b2333;
+    font-size: 1.5em;
+}
 .weather{
     grid-row: 3/4;
+    
+}
+.weather h3{
+    color: #5b2333;
+    font-size: 1.5em;
+}
+.weather_icon{
+    font-size: 3em;
 }
 .new_release{
     grid-row: 4/5;
 }
+.new_release h3{
+    color: #5b2333;
+    font-size: 1.5em;
+}
 .spotlight{
     grid-row: 5/6;
+}
+.spotlight h3{
+    color: #5b2333;
+    font-size: 1.5em;
 }
 #spotlight3{
     display: none;
