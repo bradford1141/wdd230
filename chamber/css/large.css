@@ -31,6 +31,13 @@
         grid-row: 3/4;
         display: block;
     }
+    .join button{
+        cursor: pointer;
+    }
+    .join button:hover{
+        color: #e0e4e3;
+        background-color: #5b2333;
+    }
     .new_release{
         grid-column: 2/3;
         grid-row: 3/4;

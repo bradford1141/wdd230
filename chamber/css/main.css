@@ -72,15 +72,18 @@ main{
 }
 .hero h3{
     position: absolute;
-    top: 6px;
-    left: 16px;
+    left: 135px;
     font-size: 3em;
-    color: white;
+    color: black;
+}
+.city{
+    max-width: 100%;
+    height: auto;
 }
 .herobutton{
     position: absolute;
-    top: 50%;
-    left: 80%;
+    top: 40%;
+    left: 70%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: white;
@@ -90,6 +93,10 @@ main{
     border: none;
     cursor: pointer;
     border-radius: 5px;
+}
+.herobutton:hover{
+    color: #e0e4e3;
+    background-color: #5b2333;
 }
 .event{
     grid-row: 2/3;
