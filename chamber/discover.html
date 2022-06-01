@@ -23,6 +23,7 @@
             <nav>
                 <ul class="navigation">
                     <li><a class="ham" href="#">Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
                     <li><a href="index.html">Directory</a></li>
                     <li><a href="index.html">Join</a></li>
@@ -36,9 +37,49 @@
         </section>
     </header>
     <main>
-        
+        <section id="discover_img">
+            <article class="num1">
+                <img src='images/discover/moon750x.webp' data-src='data/img/SLUG.jpg' alt='Coruscant at Night with the moon'>
+                <!-- srcset="images/discover/moon1000x.webp 1000w,
+                        images/discover/moon750x.webp 750w,
+                        images/discover/moon400x.webp 400w"
+                sizes="(max-width: 47.5rem) 100vw,
+                        50vw"> -->
+            </article>
+            <article class="num2">
+                <img src='images/discover/coruscant750x.webp' data-src='data/img/SLUG.jpg' alt='Coruscant with flying ships'>
+                <!-- srcset="images/discover/coruscant1000x.webp 1000w,
+                        images/discover/coruscant750x.webp 750w,
+                        images/discover/coruscant400x.webp 400w"
+                sizes=(max-width: 47.5rem) 100vw,
+                        50vw"> -->
+            </article>
+            <article class="num3">
+                <img src='images/discover/sunset750x.webp' data-src='data/img/SLUG.jpg' alt='Coruscant with the sunset and flying ships'>
+                <!-- srcset="images/discover/sunset1000x.webp 1000w,
+                        images/discover/sunset750x.webp 750w,
+                        images/discover/sunset400x.webp 400w"
+                sizes=(max-width: 47.5rem) 100vw,
+                        50vw"> -->
+            </article>
+            <article class="num4">
+                <img src='images/discover/icon750x.webp' data-src='data/img/SLUG.jpg' alt='Six different star wars icons'>
+                <!-- srcset="images/discover/icon1000x.webp 1000w,
+                        images/discover/icon750x.webp 750w,
+                        images/discover/icon400x.webp 400w"
+                sizes=(max-width: 47.5rem) 100vw,
+                        50vw"> -->
+            </article>
+            <article class="num5">
+                <img src='images/discover/starwars750x.webp' data-src='data/img/SLUG.jpg' alt='Nine different star wars icons, black and white'>
+                <!-- srcset="images/discover/starwars1000x.webp 1000w,
+                        images/discover/starwars750x.webp 750w,
+                        images/discover/starwars400x.webp 400w"
+                sizes=(max-width: 47.5rem) 100vw,
+                        50vw"> -->
+            </article>
+        </section>
 
-        <p>Your last visit to this page was on <span id='last-visit'>1/1/2022</span>.</p>
         <p>That was <span id="days-ago">0</span> days ago.</p>
         <p>That was <span id="seconds-ago"></span> seconds ago.</p>
     </main>
@@ -61,5 +102,6 @@
     <script src="js/menu.js"></script>
     <script src="js/header.js"></script>
     <script src="js/localstoreage.js"></script>
+    <script src="js/lazyload.js"></script>
 </body>
 </html>
