@@ -1,16 +1,16 @@
 let lastVistDate; 
-const now = Date.now();
+const RightNow = Date.now();
 
 if (window.localStorage.getItem('last-visit-date'))
 {
     lastVistDate = window.localStorage.getItem('last-visit-date');
 } else{
-    lastVistDate = now;
+    lastVistDate = RightNow;
 }
 
-window.localStorage.setItem('last-visit-date', now);
+window.localStorage.setItem('last-visit-date', RightNow);
 
-const secondsSinceLastVisit = Math.floor((now - lastVistDate) / 1000);
+const secondsSinceLastVisit = Math.floor((RightNow - lastVistDate) / 1000);
 const daysSinceLastVisit = Math.floor(secondsSinceLastVisit / 86400);
 console.log(secondsSinceLastVisit);
 
