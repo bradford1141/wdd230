@@ -1,3 +1,5 @@
+/* home page css */
+
 header{
     background-color: #5b2333;
     color: #e0e4e3;
@@ -213,7 +215,7 @@ footer img{
 
 }
 
-
+/* discover css */
 
 #discover{
     text-align: center;
@@ -251,3 +253,4 @@ footer img{
     }
     
 }
+
