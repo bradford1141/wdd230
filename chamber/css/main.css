@@ -230,7 +230,6 @@ footer img{
 }
 #discover_img img{
     max-width: 100%;
-    max-height: auto;
 }
 #discover_img img:hover{
     box-shadow: 0 0 20px #555;
