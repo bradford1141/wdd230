@@ -57,7 +57,7 @@ nav{
 body{
     text-align: center;
 }
-main{
+.home_page{
     font-family: 'Oswald', sans-serif;
     background-color: #e0e4e3;
     display: grid;
@@ -234,7 +234,7 @@ footer img{
     box-shadow: 0 0 20px #555;
 }
 .days_ago{
-    grid-row: -1;
+    grid-row: 2/3;
 }
 
 @media screen and (min-width: 56rem) {
