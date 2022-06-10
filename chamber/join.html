@@ -34,7 +34,54 @@
         </section>
     </header>
     <main class="join_page">
-        
+        <form method="get" action="thankyoudemo.html">
+            <label for="firstname" class="required">First name:</label>
+            <input type="text" name="firstname" id="firstname" autofocus required>
+
+            <label for="lastname" class="required">Last name:</label>
+            <input type="text" name="lastname" id="lastname" required>
+
+            <label for="title">Position title:</label>
+            <input type="text" name="title" id="title" pattern="">
+
+            <label for="major" class="required">Email:</label>
+            <input type="text" name="major" id="major" pattern="" placeholder="example@email.com" required>
+            
+            <label for="phone" class="required">Phone Number (555-555-5555):</label>
+            <input type="tel" name="phone" id="phone" placeholder="555-555-5555" pattern="/d/d/d-/d/d/d-/d/d/d/d" required>
+            
+            <label for="business" class="required">Business name:</label>
+            <input type="text" name="business" id="business" required>
+
+            <label for="color">Membership level:</label>
+            <input list="color-list" name="color" id="color">
+            <datalist id="color-list">
+                <option value="Non Profit">
+                <option value="Bronze">
+                <option value="Silver">
+                <option value="Gold">
+            </datalist>
+
+            <p class="memb-desc">Non Profit- There is no fee for a Non-Profit orginazation</p>
+            <p class="memb-desc">Bronze is $100 a year and has the minimum benifits</p>
+            <p class="memb-desc">Silver is $200 a year and has the medium benifits</p>
+            <p class="memb-desc">Gold is $300 a year and has the most benifits</p>
+
+            <label for="example">Business description: </label>
+            <input type="text" name="example" id="example">
+
+            <section class="date2">
+                <h2><span id="date2"></span></h2>
+                <aside></aside>
+            </section>
+
+            <article class="days_ago2">
+                <p>That was <span id="days-ago2">0</span> days ago.</p>
+                <p>That was <span id="seconds-ago2"></span> seconds ago.</p>
+            </article>
+
+            <input type="submit" value="Sign Up">
+        </form>
     </main>
     <footer>
         <section class="address">
@@ -54,5 +101,7 @@
     <script src="js/footer.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/header2.js"></script>
+    <script src="js/localstoreage2.js"></script>
 </body>
 </html>

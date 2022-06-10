@@ -256,3 +256,48 @@ footer img{
 
 /* join page css */
 
+.join_page{
+    box-sizing: border-box;
+}
+form{
+    max-width: 320px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 1em;
+}
+form label,
+form input{
+    display: block;
+    width: 100%;
+}
+form input{
+    margin-bottom: 1em;
+    padding: .75rem;
+}
+label input{
+    display: inline;
+    width: auto;
+    margin: 0;
+}
+form label.required::after{
+    content: " *";
+    color: red;
+}
+input:invalid{
+    box-shadow: 0 0 2px 1px red;
+}
+.memb-desc{
+    display: none;
+}
+.days_ago2{
+    display: none;
+}
+.date2{
+    display: none;
+}
+
+@media screen and (min-width: 56rem) {
+    .memb-desc{
+        display: block;
+    }
+}
