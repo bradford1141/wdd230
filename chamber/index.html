@@ -80,10 +80,13 @@
         </section>
         <section class="weather">
             <h3>Weather</h3>
-            <p class="weather_icon">🌥</p>
+            <figure>
+                <img src="" alt="" id="weather-icon" />
+                <figcaption></figcaption>
+            </figure>
             <div>
-                <ul><span id="temp">55</span>&deg; F</ul>
-                <ul><span id="windspeed">5</span> MPH</ul>
+                <p>Jedi Temple, Coruscant is <span id="current-temp"></span> &deg; F</p>
+                <ul><span id="windspeed">5</span> MPH Wind</ul>
                 <ul><span id="windchill">N/A</span></ul>
             </div>
         </section>
@@ -117,5 +120,6 @@
     <script src="js/header.js"></script>
     <script src="js/special.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>
