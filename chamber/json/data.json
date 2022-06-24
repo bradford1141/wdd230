@@ -1,8 +1,74 @@
 {"directory" : [
-    {"business": 
+    {"business": "Glock",
+    "address": "6000 Highlands Parkway SE, Smyrna, GA 30082",
+    "phone-number": "770-432-1202",
+    "email": "glockcustomerservice@glock.us",
+    "website": "https://us.glock.com/en",
+    "image": "",
+    "m-lvl": "Bronze"},
 
-    },
-    {"business":
-        
-    },
+    {"business": "Microsoft",
+    "address": "One Microsoft Way, Redmond, WA, USA",
+    "phone-number": "800-642-7676",
+    "email": "N/A",
+    "website": "https://www.microsoft.com/en-us/?ql=2",
+    "image": "",
+    "m-lvl": "Bronze"},
+
+    {"business": "NASA",
+    "address": "300 Hidden Figures Way SW Washington D.C.",
+    "phone-number": "202-358-0001",
+    "email": "hqnews-join@newsletters.nasa.gov",
+    "website": "https://www.nasa.gov/",
+    "image": "",
+    "m-lvl": "Silver"},
+
+    {"business": "Apple",
+    "address": "One Apple Park Way, Cupertino, CA 95014",
+    "phone-number": "800-692-7753",
+    "email": "N/A",
+    "website": "https://www.apple.com/",
+    "image": "",
+    "m-lvl": "Silver"},
+
+    {"business": "Audi",
+    "address": "1401 Franklin Blvd Libertyville, IL 60048",
+    "phone-number": "888-237-2834",
+    "email": "N/A",
+    "website": "https://www.audiusa.com/us/web/en.html",
+    "image": "", 
+    "m-lvl": "Silver"},
+
+    {"business": "Walt Disney",
+    "address": "500 S. Buena Vista St. Burbank, CA 91521",
+    "phone-number": "888-905-7888",
+    "email": "N/A",
+    "website": "https://www.disney.com/",
+    "image": "",
+    "m-lvl": "Gold"},
+
+    {"business": "Nike",
+    "address": "One Boweman Drive Beaverton, OR 97005",
+    "phone-number": "1-800-806-6453",
+    "email": "N/A",
+    "website": "https://www.nike.com/",
+    "image": "",
+    "m-lvl": "Gold"},
+
+    {"business": "Amazon",
+    "address": "410 Terry Ave N, Seattle 98109",
+    "phone-number": "888-280-4331",
+    "email": "cs-reply@amazon.com",
+    "website": "https://www.amazon.com/",
+    "image": "",
+    "m-lvl": "Gold"},
+
+    {"business": "UltraSabers",
+    "address": "308 West Edgewood Dr Friendsood, TX 77546",
+    "phone-number": "832-596-9003",
+    "email": "info@unltrasabers.com",
+    "website": "https://ultrasabers.com/",
+    "image": "",
+    "m-lvl": "Non-Profit"}
+
 ]}
