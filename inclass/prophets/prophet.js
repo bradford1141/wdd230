@@ -1,5 +1,5 @@
 fetch("https://byui-cit230.github.10/canvas-referenced/latter-day-prophets.json")
-const resultElement = document.querySelector(".cards")
+const resultElement = document.querySelector('.cards')
 .then (response => response.json())
 .then( prophets => {
     console.log (prophets);
