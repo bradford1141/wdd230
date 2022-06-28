@@ -1,5 +1,5 @@
-const resultElement = document.querySelector("#bussiness");
-fetch('')
+const resultElement = document.querySelector("#business");  
+fetch('./json/data.json')
 .then(response => response.json())
 .then(businesses => {
     console.log(businesses);
@@ -28,7 +28,6 @@ fetch('')
 
         section.appendChild(bname);
         section.appendChild(location);
-        section.appendChild(contact);
         section.appendChild(email);
         section.appendChild(website);
         section.appendChild(image);
