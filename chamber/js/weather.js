@@ -3,8 +3,8 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
 const base_url = "https://api.openweathermap.org/data/2.5/weather";
-const city_name = "Fairbanks";
-const state_code = "AK";
+const city_name = "Meridian";
+const state_code = "ID";
 const country_code = "US";
 const appid = "a7f25480fd72b2ee0e023a2b8ce83dc9";
 const units = "imperial";
@@ -23,16 +23,18 @@ fetch(url)
 
     weatherIcon.setAttribute('src', base_image_url);
     weatherIcon.setAttribute('alt', data.weather[0].description);
+    
+    const windspeedelement = document.querySelector('#windspeed');
+    windspeed = data["wind"]["speed"];
+    windspeedelement.textContent = windspeed;
+    
+
+    if(temperature <= 50 && windspeed > 3){
+        const windChill = 35.74 + 0.6215 * temperature - 35.75 * windspeed**0.16 + 0.4275 * temperature * windspeed**0.1;
+        document.querySelector('#windchill').textContent = windChill.toFixed(2);
+        console.log(temperature);
+    }
+    else{
+        document.querySelector('#windchill').textContent = 'N/A';
+    }
 });
-
-let temperature = parseFloat(document.querySelector('#current-temp').textContent);
-let windspeed = parseFloat(document.querySelector('#windspeed').textContent);
-
-if(temperature <= 50 && windspeed > 3){
-    const windChill = 35.74 + 0.6215 * temperature - 35.75 * windspeed**0.16 + 0.4275 * temperature * windspeed**0.1;
-    document.querySelector('#windchill').textContent = windChill.toFixed(2);
-    console.log(temperature);
-}
-else{
-    document.querySelector('#windchill').textContent = 'N/A';
-}
