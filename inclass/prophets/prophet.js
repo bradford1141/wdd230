@@ -1,6 +1,7 @@
-const url = ("https://byui-cit230.github.10/canvas-referenced/latter-day-prophets.json");
-fetch(url)
+const url = ("https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json");
 const resultElement = document.querySelector('.cards')
+
+fetch(url)
 .then (response => response.json())
 
 .then (data => {
@@ -8,9 +9,8 @@ const resultElement = document.querySelector('.cards')
     prophets.forEach(displayProphets);
 })
 
-function displayProphets(prophets){
+function displayProphets(prophet){
 
-    prophets.forEach( prophet => {
     const section = document.createElement('section');
     const pname = document.createElement('h1');
     pname.textContent = `${prophet["name"]} ${prophet["lastname"]}`;
@@ -25,5 +25,4 @@ function displayProphets(prophets){
     section.appendChild(birthdate);
     section. appendChild(birthplace);
     section.appendChild(pimg);
-    resultElement.appendChild(section);})
-}
+    resultElement.appendChild(section);}
