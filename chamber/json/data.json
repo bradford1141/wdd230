@@ -4,7 +4,7 @@
     "phone-number": "770-432-1202",
     "email": "glockcustomerservice@glock.us",
     "website": "https://us.glock.com/en",
-    "image": "",
+    "image": "images/directory/glocklogo.webp",
     "m-lvl": "Bronze"},
 
     {"business": "Microsoft",
@@ -12,7 +12,7 @@
     "phone-number": "800-642-7676",
     "email": "N/A",
     "website": "https://www.microsoft.com/en-us/?ql=2",
-    "image": "",
+    "image": "images/directory/microsoftlogo.webp",
     "m-lvl": "Bronze"},
 
     {"business": "NASA",
@@ -20,7 +20,7 @@
     "phone-number": "202-358-0001",
     "email": "hqnews-join@newsletters.nasa.gov",
     "website": "https://www.nasa.gov/",
-    "image": "",
+    "image": "images/directory/nasalogo.webp",
     "m-lvl": "Silver"},
 
     {"business": "Apple",
@@ -28,7 +28,7 @@
     "phone-number": "800-692-7753",
     "email": "N/A",
     "website": "https://www.apple.com/",
-    "image": "",
+    "image": "images/directory/applelogo.webp",
     "m-lvl": "Silver"},
 
     {"business": "Audi",
@@ -36,7 +36,7 @@
     "phone-number": "888-237-2834",
     "email": "N/A",
     "website": "https://www.audiusa.com/us/web/en.html",
-    "image": "", 
+    "image": "images/directory/audilogo.webp", 
     "m-lvl": "Silver"},
 
     {"business": "Walt Disney",
@@ -44,7 +44,7 @@
     "phone-number": "888-905-7888",
     "email": "N/A",
     "website": "https://www.disney.com/",
-    "image": "",
+    "image": "images/directory/disneylogo.webp",
     "m-lvl": "Gold"},
 
     {"business": "Nike",
@@ -52,7 +52,7 @@
     "phone-number": "1-800-806-6453",
     "email": "N/A",
     "website": "https://www.nike.com/",
-    "image": "",
+    "image": "images/directory/nikelogo.webp",
     "m-lvl": "Gold"},
 
     {"business": "Amazon",
@@ -60,7 +60,7 @@
     "phone-number": "888-280-4331",
     "email": "cs-reply@amazon.com",
     "website": "https://www.amazon.com/",
-    "image": "",
+    "image": "images/directory/amazonlogo.webp",
     "m-lvl": "Gold"},
 
     {"business": "UltraSabers",
@@ -68,7 +68,7 @@
     "phone-number": "832-596-9003",
     "email": "info@unltrasabers.com",
     "website": "https://ultrasabers.com/",
-    "image": "",
+    "image": "images/directory/ultrasaberslogo.webp",
     "m-lvl": "Non-Profit"}
 
 ]}
