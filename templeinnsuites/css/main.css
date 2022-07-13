@@ -226,8 +226,12 @@ input:invalid{
 
 .amenities{
     list-style: none;
+    font-family: 'Gulzar', serif;
 }
-.amenities h1{
+.amenities h2{
+    font-family: 'Gentium Book Plus', serif;
+}
+.special h2{
     font-family: 'Gentium Book Plus', serif;
 }
 
@@ -237,7 +241,7 @@ input:invalid{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1/2fr 1fr 1fr;
     }
-    .amenities h1{
+    .amenities h2{
         grid-column: 1/-1;
         grid-row: 1/2;
     }
