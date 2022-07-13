@@ -227,3 +227,39 @@ input:invalid{
 .amenities{
     list-style: none;
 }
+
+@media screen and (min-width: 56rem) {
+    .amenities{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .breakfast{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .workout{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .pool{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .wifi{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .parking{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .shuttle{
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    .familyhis{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+}
