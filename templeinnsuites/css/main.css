@@ -2,6 +2,7 @@
             font-family: 'Gulzar', serif; */
 
 /* Home Page */
+
 header{
     background-color: #2F6690;
     color: white;
@@ -173,8 +174,8 @@ footer{
 }
 
 
-
 /* Reservation Page */
+
 .join_page{
     box-sizing: border-box;
 }
@@ -219,4 +220,10 @@ input:invalid{
     .memb-desc{
         display: block;
     }
+}
+
+/* Services Page  */
+
+.amenities{
+    list-style: none;
 }
