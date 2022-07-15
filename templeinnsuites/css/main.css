@@ -234,6 +234,13 @@ input:invalid{
 .special h2{
     font-family: 'Gentium Book Plus', serif;
 }
+.services li{
+    padding: 10px;
+    font-family: 'Gulzar', serif;
+}
+.services h2{
+    font-family: 'Gentium Book Plus', serif;
+}
 
 @media screen and (min-width: 56rem) {
     .amenities{
@@ -272,5 +279,169 @@ input:invalid{
     .familyhis{
         grid-column: 2/3;
         grid-row: 4/5;
+    }
+}
+
+
+/* Mission Services Page*/
+
+.mis-services{
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 22px;
+}
+.mis-services li{
+    font-family: 'Gulzar', serif;
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.suites-title{
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 23px;
+}
+.gold-suite .silver-suite .bronze-suite{
+    font-family: 'Gulzar', serif;
+}
+.gold-suite li{
+    padding: 3px;
+}
+.silver-suite li{
+    padding: 3px;
+}
+.bronze-suite li{
+    padding: 3px;
+}
+.suites li{
+    list-style: none;
+    font-size: 22px
+}
+.gold-suite{
+    text-decoration: underline;
+    text-decoration-color: gold;
+}
+.silver-suite{
+    text-decoration: underline;
+    text-decoration-color: silver;
+}
+.bronze-suite{
+    text-decoration: underline;
+    text-decoration-color: #CD7F32;
+}
+
+@media screen and (min-width: 56rem) {
+    .suites{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1/2fr 1fr;
+    }
+    .suites-title{
+        grid-row: 1/2;
+        grid-column: 1/-1;
+    }
+    .gold-suite{
+        grid-row: 2/3;
+        grid-column: 3/4;
+    }
+    .silver-suite{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .bronze-suite{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+}
+
+/* Wedding Services Page */
+
+.wed-services{
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 22px;
+}
+.wed-services li{
+    font-family: 'Gulzar', serif;
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.wed-title{
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 23px;
+}
+.gold .silver .bronze{
+    font-family: 'Gulzar', serif;
+}
+.gold li{
+    padding: 3px;
+}
+.silver li{
+    padding: 3px;
+}
+.bronze li{
+    padding: 3px;
+}
+.packages li{
+    list-style: none;
+    font-size: 22px
+}
+.gold{
+    text-decoration: underline;
+    text-decoration-color: gold;
+}
+.silver{
+    text-decoration: underline;
+    text-decoration-color: silver;
+}
+.bronze{
+    text-decoration: underline;
+    text-decoration-color: #CD7F32;
+}
+
+@media screen and (min-width: 56rem) {
+    .packages{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1/2fr 1fr;
+    }
+    .wed-title{
+        grid-row: 1/2;
+        grid-column: 1/-1;
+    }
+    .gold{
+        grid-row: 2/3;
+        grid-column: 3/4;
+    }
+    .silver{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .bronze{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+}
+
+@media screen and (min-width: 56rem) {
+    .food-packages{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1/2fr 1fr;
+    }
+    .food-title{
+        grid-row: 1/2;
+        grid-column: 1/-1;
+    }
+    .gold-food{
+        grid-row: 2/3;
+        grid-column: 3/4;
+    }
+    .silver-food{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .bronze-food{
+        grid-row: 2/3;
+        grid-column: 1/2;
     }
 }
