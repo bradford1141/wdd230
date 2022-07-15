@@ -285,6 +285,13 @@ input:invalid{
 
 /* Mission Services Page*/
 
+.mission-page{
+    width: 100%;
+}
+.suites img{
+    width: 100%;
+    height: auto;
+}
 .mis-services{
     font-family: 'Gentium Book Plus', serif;
     font-size: 22px;
@@ -295,7 +302,6 @@ input:invalid{
     padding: 10px;
     font-size: 20px;
 }
-
 .suites-title{
     font-family: 'Gentium Book Plus', serif;
     font-size: 23px;
@@ -327,6 +333,9 @@ input:invalid{
 .bronze-suite{
     text-decoration: underline;
     text-decoration-color: #CD7F32;
+}
+.suites{
+    padding-bottom: 100px;
 }
 
 @media screen and (min-width: 56rem) {
