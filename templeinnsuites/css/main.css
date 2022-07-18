@@ -128,6 +128,9 @@ footer{
     justify-content: center;
     align-items: center;
 }
+.message{
+    display: none;
+}
 
 @media only screen and (min-width: 32.5em) {
 	.navigation {
@@ -144,7 +147,7 @@ footer{
 		display: none;
 	}
 }
-@media screen and (min-width: 768px) 
+@media screen and (min-width: 1024px)
     {
         .home_page{
             grid-template-columns: 1fr 3fr 1fr;
@@ -171,6 +174,37 @@ footer{
             grid-row: 2/3;
             grid-column: 1/2;
         }
+        .message{
+            display: block;
+        }
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+	.home_page{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .ft_location{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .reservation{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .services{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .location{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .weather{
+        grid-row: 2/3;
+        grid-column: 3/4;
+        display: block;
+    }
 }
 
 
