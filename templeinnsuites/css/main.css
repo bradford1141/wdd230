@@ -268,7 +268,7 @@ input:invalid{
 .special h2{
     font-family: 'Gentium Book Plus', serif;
 }
-.services li{
+.services p{
     padding: 10px;
     font-family: 'Gulzar', serif;
 }
@@ -330,7 +330,7 @@ input:invalid{
     font-family: 'Gentium Book Plus', serif;
     font-size: 22px;
 }
-.mis-services li{
+.mis-services p{
     font-family: 'Gulzar', serif;
     list-style: none;
     padding: 10px;
@@ -343,16 +343,16 @@ input:invalid{
 .gold-suite .silver-suite .bronze-suite{
     font-family: 'Gulzar', serif;
 }
-.gold-suite li{
+.gold-suite p{
     padding: 3px;
 }
-.silver-suite li{
+.silver-suite p{
     padding: 3px;
 }
-.bronze-suite li{
+.bronze-suite p{
     padding: 3px;
 }
-.suites li{
+.suites p{
     list-style: none;
     font-size: 22px
 }
@@ -402,7 +402,7 @@ input:invalid{
     font-family: 'Gentium Book Plus', serif;
     font-size: 22px;
 }
-.wed-services li{
+.wed-services p{
     font-family: 'Gulzar', serif;
     list-style: none;
     padding: 10px;
@@ -415,16 +415,16 @@ input:invalid{
 .gold .silver .bronze{
     font-family: 'Gulzar', serif;
 }
-.gold li{
+.gold p{
     padding: 3px;
 }
-.silver li{
+.silver p{
     padding: 3px;
 }
-.bronze li{
+.bronze p{
     padding: 3px;
 }
-.packages li{
+.packages p{
     list-style: none;
     font-size: 22px
 }
